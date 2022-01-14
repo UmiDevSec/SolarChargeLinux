@@ -1,5 +1,6 @@
 # SolarChargeLinux
-Get realtime stats from your solar charge controller via Python for controllers that use PVChargePro app
+Get realtime stats from your Bluetooth equipped solar charge controller. \
+Should work for any controller that uses the PVChargePro app (no guarantees).
 
 ## QuickStart
 Steps to get this to work:
@@ -28,5 +29,3 @@ If the Load is currently enabled `/tmp/is_load_on` will have the value `True` ot
 To turn ON: `echo "on" > /tmp/load_action`
 
 To turn OFF: `echo "off" > /tmp/load_action`
-
-
